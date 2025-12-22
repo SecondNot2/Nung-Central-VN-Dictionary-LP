@@ -1,8 +1,6 @@
 # Nung Central Vietnam Dictionary (Landing Page)
 
-![Nung Dictionary Banner](https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6)
-
-Dự án Landing Page cho từ điển tiếng Nùng tại miền Trung Việt Nam. Một ứng dụng hiện đại giúp bảo tồn và phổ biến ngôn ngữ dân tộc Nùng.
+Đây là dự án **Landing Page** chính thức cho [**Nung Central Vietnam Dictionary**](https://github.com/SecondNot2/Nung-Central-VN-Dictionary). Một ứng dụng hiện đại giúp bảo tồn và phổ biến ngôn ngữ dân tộc Nùng tại miền Trung Việt Nam.
 
 ## 🚀 Tính năng chính
 
