@@ -4,10 +4,13 @@
 
 ## 🚀 Tính năng chính
 
-- **Giao diện hiện đại**: Thiết kế theo phong cách Brutalism/Neo-brutalism độc đáo.
-- **Tra cứu từ vựng**: Hỗ trợ tìm kiếm và học từ vựng mỗi ngày.
-- **Câu chuyện văn hóa**: Tích hợp các câu chuyện và ngữ cảnh sử dụng ngôn ngữ.
-- **Responsive**: Trải nghiệm mượt mà trên cả PC và Mobile.
+- **Direct App Redirection**: Liên kết trực tiếp tới [ứng dụng NungDic thực tế](https://nung-dictionary.vercel.app/).
+- **AI Engine Showcase**: Giới thiệu công nghệ dịch thuật AI mạnh mẽ (MegaLLM/Gemini) với giao diện tương tác.
+- **Stats Dashboard**: Hiển thị số liệu thực tế về quy mô kho từ vựng và cộng đồng.
+- **Cộng đồng & Thảo luận**: Giới thiệu hệ thống thảo luận đa tầng và đóng góp từ vựng.
+- **Văn hóa & Từ vựng**: Tích hợp câu chuyện và từ vựng nổi bật hàng ngày.
+- **Giao diện Neo-Brutalism**: Thiết kế hiện đại, táo bạo với bảng màu Earth & Bamboo.
+- **Responsive & Premium**: Tối ưu hóa trải nghiệm trên mọi thiết bị với các hiệu ứng micro-animations.
 
 ## 🛠 Công nghệ sử dụng
 
@@ -53,7 +56,3 @@
 ## 📄 Giấy phép
 
 Dự án này được bảo trì bởi [SecondNot2](https://github.com/SecondNot2).
-
----
-
-_Dự án được hỗ trợ bởi Antigravity AI._
