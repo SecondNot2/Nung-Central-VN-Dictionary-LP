@@ -1,0 +1,67 @@
+import React from 'react';
+import { Book, Users, Image as ImageIcon } from 'lucide-react';
+
+const Features: React.FC = () => {
+  return (
+    <section id="explore" className="py-24 bg-nung-sand border-y-4 border-black relative">
+      <div className="absolute inset-0 w-full h-full bg-paper opacity-40 pointer-events-none"></div>
+      
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="text-center mb-16 relative">
+          <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-black text-outline-light inline-block relative z-10">
+            ✨ Khám phá văn hóa & ngôn ngữ ✨
+          </h2>
+          <div className="absolute top-1/2 left-1/2 w-3/4 h-8 bg-nung-green/30 transform -translate-x-1/2 -translate-y-1/2 -rotate-1 skew-x-12 blur-sm -z-0"></div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-8 px-4">
+          
+          {/* Card 1 */}
+          <div className="bg-nung-red text-white p-8 border-4 border-black shadow-[8px_8px_0px_2px_#A32D2D] transform rotate-1 hover:rotate-0 transition-transform duration-300 relative group">
+            <div className="absolute -top-6 -left-6 w-16 h-16 bg-white border-4 border-black flex items-center justify-center shadow-brutal transform -rotate-6 group-hover:rotate-12 transition-transform">
+              <Book className="text-nung-red w-8 h-8" />
+            </div>
+            <h3 className="font-serif text-2xl font-bold mb-4 mt-4">Tìm hiểu Từ vựng</h3>
+            <ul className="space-y-3 font-medium">
+              <li className="flex items-start"><span className="mr-2">•</span>Dịch Việt ↔ Nùng với AI thông minh</li>
+              <li className="flex items-start"><span className="mr-2">•</span>Hiểu ngữ cảnh và sắc thái</li>
+              <li className="flex items-start"><span className="mr-2">•</span>Nghe phát âm chuẩn Lạng Sơn</li>
+              <li className="flex items-start"><span className="mr-2">•</span>Hơn 1000+ từ vựng</li>
+            </ul>
+          </div>
+
+          {/* Card 2 */}
+          <div className="bg-nung-blue text-white p-8 border-4 border-black shadow-[8px_8px_0px_2px_#2A475E] transform -rotate-2 hover:rotate-0 transition-transform duration-300 relative group mt-8 md:mt-0">
+             <div className="absolute -top-6 -right-6 w-16 h-16 bg-white border-4 border-black flex items-center justify-center shadow-brutal transform rotate-3 group-hover:-rotate-12 transition-transform">
+              <Users className="text-nung-blue w-8 h-8" />
+            </div>
+            <h3 className="font-serif text-2xl font-bold mb-4 mt-4">Cộng đồng & Chia sẻ</h3>
+            <ul className="space-y-3 font-medium">
+              <li className="flex items-start"><span className="mr-2">•</span>Thảo luận về các bản dịch</li>
+              <li className="flex items-start"><span className="mr-2">•</span>Đóng góp từ vựng & hình ảnh</li>
+              <li className="flex items-start"><span className="mr-2">•</span>Đánh giá phản hồi</li>
+              <li className="flex items-start"><span className="mr-2">•</span>Xây dựng kho tàng chung</li>
+            </ul>
+          </div>
+
+          {/* Card 3 */}
+          <div className="bg-black text-white p-8 border-4 border-black shadow-[8px_8px_0px_0px_#5C7F60] transform rotate-2 hover:rotate-0 transition-transform duration-300 relative group mt-8 lg:mt-0">
+             <div className="absolute -top-6 left-1/2 -translate-x-1/2 w-16 h-16 bg-nung-green border-4 border-white flex items-center justify-center shadow-brutal transform rotate-1 group-hover:rotate-6 transition-transform">
+              <ImageIcon className="text-white w-8 h-8" />
+            </div>
+            <h3 className="font-serif text-2xl font-bold mb-4 mt-4 text-nung-green">Thư viện Ảnh & Tài liệu</h3>
+            <ul className="space-y-3 font-medium text-gray-300">
+              <li className="flex items-start"><span className="mr-2 text-nung-green">•</span>Bộ sưu tập ảnh đời sống</li>
+              <li className="flex items-start"><span className="mr-2 text-nung-green">•</span>Tài liệu phong tục tập quán</li>
+              <li className="flex items-start"><span className="mr-2 text-nung-green">•</span>Video lễ hội truyền thống</li>
+              <li className="flex items-start"><span className="mr-2 text-nung-green">•</span>Làng nghề thủ công</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Features;

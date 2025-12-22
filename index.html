@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NungDic - Hành trình Văn hóa Nùng</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Great+Vibes&family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'nung-red': '#A32D2D',
+              'nung-blue': '#2A475E',
+              'nung-green': '#5C7F60',
+              'nung-brown': '#7A5C40',
+              'nung-sand': '#D9C9B4',
+              'nung-dark': '#1a1a1a',
+            },
+            fontFamily: {
+              display: ['"Abril Fatface"', 'cursive'],
+              body: ['"Montserrat"', 'sans-serif'],
+              serif: ['"Merriweather"', 'serif'],
+              hand: ['"Great Vibes"', 'cursive'],
+            },
+            boxShadow: {
+              'brutal': '5px 5px 0px 0px #000',
+              'brutal-lg': '8px 8px 0px 0px #000',
+              'brutal-sm': '3px 3px 0px 0px #000',
+            },
+            backgroundImage: {
+              'paper': "url('https://www.transparenttextures.com/patterns/lined-paper.png')",
+              'fabric': "url('https://www.transparenttextures.com/patterns/carbon-fibre.png')", // Simulating fabric texture
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      .text-outline {
+        text-shadow: 2px 2px 0 #000;
+      }
+      .text-outline-light {
+        text-shadow: 2px 2px 0 #fff;
+      }
+      .cultural-filter {
+        filter: sepia(0.2) contrast(1.1);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-nung-sand text-gray-900">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
