@@ -4,7 +4,7 @@
 
 ## 🚀 Tính năng chính
 
-- **Direct App Redirection**: Liên kết trực tiếp tới [ứng dụng NungDic thực tế](https://nung-dictionary.vercel.app/).
+- **Direct App Redirection**: Liên kết trực tiếp tới [ứng dụng NungDic thực tế](https://nung-central-vn-dictionary.vercel.app/).
 - **AI Engine Showcase**: Giới thiệu công nghệ dịch thuật AI mạnh mẽ (MegaLLM/Gemini) với giao diện tương tác.
 - **Stats Dashboard**: Hiển thị số liệu thực tế về quy mô kho từ vựng và cộng đồng.
 - **Cộng đồng & Thảo luận**: Giới thiệu hệ thống thảo luận đa tầng và đóng góp từ vựng.
