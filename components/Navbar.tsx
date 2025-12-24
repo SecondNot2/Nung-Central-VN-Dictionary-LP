@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
             ))}
             <div className="flex items-center gap-4 border-l-2 border-black pl-6 ml-2">
               <a
-                href="https://nung-central-vn-dictionary.vercel.app/"
+                href="https://nungdic-app.vercel.app//"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-nung-red text-white border-2 border-black px-5 py-2 flex items-center gap-2 shadow-brutal hover:shadow-none hover:translate-x-[5px] hover:translate-y-[5px] transition-all group"
@@ -83,7 +83,7 @@ const Navbar: React.FC = () => {
             </a>
           ))}
           <a
-            href="https://nung-central-vn-dictionary.vercel.app/"
+            href="https://nungdic-app.vercel.app//"
             target="_blank"
             rel="noopener noreferrer"
             className="block w-full text-center bg-nung-red text-white border-2 border-black px-5 py-3 shadow-brutal font-bold"

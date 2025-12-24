@@ -50,7 +50,7 @@ const Hero: React.FC = () => {
 
           <div className="mt-12 flex flex-col sm:flex-row gap-6">
             <a
-              href="https://nung-central-vn-dictionary.vercel.app/"
+              href="https://nungdic-app.vercel.app//"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-nung-red border-2 border-black shadow-brutal-lg hover:shadow-none hover:translate-x-2 hover:translate-y-2 transition-all duration-200"

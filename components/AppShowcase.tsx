@@ -88,7 +88,7 @@ const AppShowcase: React.FC = () => {
                 {/* Fake App UI */}
                 <div className="absolute inset-0 bg-black/60 backdrop-blur-sm z-30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                   <a
-                    href="https://nung-dictionary.vercel.app/"
+                    href="https://nungdic-app.vercel.app//"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-nung-red text-white border-2 border-black px-8 py-4 font-bold text-xl shadow-brutal hover:shadow-none hover:translate-x-2 hover:translate-y-2 transition-all transform -rotate-1"
