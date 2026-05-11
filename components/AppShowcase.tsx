@@ -21,7 +21,7 @@ const AppShowcase: React.FC = () => {
         "Suy luận từ đơn (Inference)",
         "Ngăn chặn lặp từ & lỗi chuỗi con",
       ],
-      image: "/nungdic_app_mockup.png",
+      image: "/app.png",
     },
     community: {
       title: "Hệ thống Thảo luận Đa tầng",
@@ -31,7 +31,7 @@ const AppShowcase: React.FC = () => {
         "Phê duyệt đóng góp real-time",
         "Bookmarking & Thư viện cá nhân",
       ],
-      image: "/nungdic_app_mockup.png",
+      image: "/app.png",
     },
     admin: {
       title: "Dashboard Quản trị Chuyên sâu",
@@ -41,7 +41,7 @@ const AppShowcase: React.FC = () => {
         "Phân quyền người dùng chi tiết",
         "Quản lý góp ý & Báo lỗi",
       ],
-      image: "/nungdic_app_mockup.png",
+      image: "/app.png",
     },
   };
 

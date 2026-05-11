@@ -47,8 +47,7 @@ const Stories: React.FC = () => {
                 <li>• Kiến trúc nhà sàn và làng bản</li>
               </ul>
               <button className="mt-8 bg-nung-red text-white border-2 border-black font-serif font-bold py-3 px-6 shadow-brutal hover:shadow-none hover:translate-x-[5px] hover:translate-y-[5px] transition-all flex items-center">
-                Đọc thêm các câu chuyện{" "}
-                <ChevronRight className="ml-2 w-5 h-5" />
+                <a href="#">Đọc thêm các câu chuyện</a>
               </button>
             </div>
           </div>
@@ -77,7 +76,7 @@ const Stories: React.FC = () => {
                 của người dân tộc Tày & Nùng.
               </p>
               <button className="bg-black text-white border-2 border-white font-bold py-2 px-4 shadow-brutal hover:bg-white hover:text-black transition-colors w-full">
-                Xem thêm ảnh
+                <a href="#">Xem thêm ảnh</a>
               </button>
             </div>
 

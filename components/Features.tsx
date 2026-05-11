@@ -35,7 +35,8 @@ const Features: React.FC = () => {
                 đơn
               </li>
               <li className="flex items-start">
-                <span className="mr-2">•</span>Phát âm TTS chuẩn Lạng Sơn & Việt
+                <span className="mr-2">•</span>Phát âm TTS chuẩn Lạng Sơn & Phổ
+                thông
               </li>
               <li className="flex items-start">
                 <span className="mr-2">•</span>Lịch sử tra cứu đồng bộ Cloud

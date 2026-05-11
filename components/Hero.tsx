@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
 
           <div className="mt-8 relative max-w-2xl">
             <div className="bg-nung-blue/90 border-2 border-black p-6 shadow-[8px_8px_0px_2px_#A32D2D] text-nung-sand text-lg md:text-xl font-medium leading-relaxed backdrop-blur-sm">
-              Hệ thống tra cứu song ngữ Việt - Tày - Nùng đột phá với{" "}
+              Hệ thống tra cứu song ngữ Phổ thông - Tày - Nùng đột phá với{" "}
               <strong>Engine AI Translation</strong> tự động, kết hợp cộng đồng
               thảo luận và đóng góp văn hóa đa tầng.
             </div>
@@ -56,7 +56,7 @@ const Hero: React.FC = () => {
               className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-nung-red border-2 border-black shadow-brutal-lg hover:shadow-none hover:translate-x-2 hover:translate-y-2 transition-all duration-200"
             >
               <Search className="w-5 h-5 mr-2" />
-              <span>Trải nghiệm AI ngay</span>
+              <span>Trải nghiệm NungDic ngay</span>
             </a>
             <a
               href="#explore"
@@ -85,7 +85,8 @@ const Hero: React.FC = () => {
               </div>
               <div className="p-3 bg-nung-blue/90 text-white border-t-2 border-black text-center">
                 <p className="font-serif text-xs md:text-sm italic">
-                  Hình ảnh: Nghệ thuật dệt vải truyền thống của người Tày & Nùng.
+                  Hình ảnh: Nghệ thuật dệt vải truyền thống của người Tày &
+                  Nùng.
                 </p>
               </div>
             </div>
