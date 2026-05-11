@@ -1,5 +1,5 @@
 import React from "react";
-import { Compass, Mail, Heart } from "lucide-react";
+import { Mail, Heart } from "lucide-react";
 
 const Footer: React.FC = () => {
   return (
@@ -9,8 +9,12 @@ const Footer: React.FC = () => {
           {/* Brand Column */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center mb-6">
-              <div className="bg-nung-red p-2 border-2 border-white shadow-[4px_4px_0px_0px_#fff]">
-                <Compass className="w-8 h-8 text-white" />
+              <div className="bg-white p-1 border-2 border-white shadow-[4px_4px_0px_0px_#fff]">
+                <img
+                  src="./logo.png"
+                  alt="NungDic Logo"
+                  className="w-10 h-10"
+                />
               </div>
               <span className="ml-3 font-display font-bold text-3xl">
                 NungDic
@@ -18,8 +22,8 @@ const Footer: React.FC = () => {
             </div>
             <p className="text-gray-400 mb-6 max-w-md text-lg leading-relaxed">
               Dự án được tạo ra với tình yêu dành cho việc bảo tồn và phát huy
-              ngôn ngữ cùng văn hóa Tày & Nùng. Hãy cùng chúng tôi gìn giữ di sản quý
-              giá này.
+              ngôn ngữ cùng văn hóa Tày & Nùng. Hãy cùng chúng tôi gìn giữ di
+              sản quý giá này.
             </p>
           </div>
 

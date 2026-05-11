@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Compass, Menu, X, ArrowRight } from "lucide-react";
+import { Menu, X, ArrowRight } from "lucide-react";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,8 +10,12 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between h-20 items-center">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="flex items-center bg-nung-red text-white border-2 border-black p-2 shadow-brutal transform hover:-translate-y-1 transition-transform">
-              <Compass className="w-8 h-8 mr-2" />
+            <div className="flex items-center bg-white text-nung-dark border-2 border-black p-1 shadow-brutal transform hover:-translate-y-1 transition-transform">
+              <img
+                src="./logo.png"
+                alt="NungDic Logo"
+                className="w-10 h-10 mr-2"
+              />
               <span className="font-display text-2xl tracking-tight">
                 NungDic
               </span>
