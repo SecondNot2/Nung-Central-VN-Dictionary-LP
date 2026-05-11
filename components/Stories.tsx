@@ -22,7 +22,7 @@ const Stories: React.FC = () => {
           <div className="relative group">
             <div className="inline-block relative mb-6">
               <div className="bg-black text-white font-display font-bold text-2xl px-6 py-3 border-2 border-white shadow-[6px_6px_0px_0px_#fff] transform -rotate-2 relative z-10">
-                📚 Câu chuyện Văn hóa Nùng
+                📚 Câu chuyện Văn hóa Tày & Nùng
               </div>
               <span className="font-hand text-4xl text-nung-sand absolute -top-8 -right-10 transform rotate-[-15deg] animate-pulse z-20">
                 Độc đáo!
@@ -34,11 +34,11 @@ const Stories: React.FC = () => {
                 Hành trình bảo tồn di sản
               </h3>
               <p className="mb-4 text-base leading-relaxed text-gray-800">
-                Đắm mình vào những câu chuyện sâu sắc về văn hóa Nùng, từ những
-                truyền thuyết cổ xưa đến cuộc sống hàng ngày đương đại. Chúng
-                tôi mang đến cho bạn cái nhìn chân thực về phong tục, lễ hội, và
-                giá trị tinh thần đã định hình nên cộng đồng người Nùng qua
-                nhiều thế kỷ.
+                Đắm mình vào những câu chuyện sâu sắc về văn hóa Tày & Nùng, từ
+                những truyền thuyết cổ xưa đến cuộc sống hàng ngày đương đại.
+                Chúng tôi mang đến cho bạn cái nhìn chân thực về phong tục, lễ
+                hội, và giá trị tinh thần đã định hình nên cộng đồng người Tày &
+                Nùng qua nhiều thế kỷ.
               </p>
               <div className="my-6 border-t-2 border-dashed border-black"></div>
               <ul className="space-y-2 font-bold text-nung-red">
@@ -64,17 +64,17 @@ const Stories: React.FC = () => {
             <div className="bg-nung-blue p-6 border-4 border-black shadow-brutal-lg transform -rotate-2 hover:rotate-0 transition-all duration-500">
               <div className="relative border-2 border-black overflow-hidden mb-4 h-64 sm:h-80">
                 <img
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXWIcJFeX7LXILY6pX6vmNI-Y0QSLeElPANti1UO1e_hkN5xh5a0VNUFkEQCVEmUBBBLN94KVh9Tl6BTziwM9Q7tY-SC98VE0iFQp_cFOY766MM6ggi8yYaOG5h6iLVGJyS_jzcwaxjzLbnYAbVFfniE6SBs-x_IXQGFNsSHUS-YxWOBRIG27-TL5zuLkY6llE3ACkMvlPrTu3mF7iFitxH-apcybc4OFq1mOevRWHW0IdU5G-buYodCWa1oJUOna3WvNcnZRxSRfQ"
-                  alt="Nung Village Life"
+                  src="public\cuoc-song-lang-ban-tay-nung.png"
+                  alt="Tay Nung Village Life"
                   className="w-full h-full object-cover cultural-filter hover:scale-110 transition-transform duration-700"
                 />
               </div>
               <h4 className="text-nung-sand font-serif font-bold text-xl mb-2">
-                Cuộc sống làng bản Nùng
+                Cuộc sống làng bản Tày & Nùng
               </h4>
               <p className="text-white/90 text-sm mb-6">
                 Hình ảnh chân thực về cuộc sống sinh hoạt, lao động và vui chơi
-                của người dân tộc Nùng.
+                của người dân tộc Tày & Nùng.
               </p>
               <button className="bg-black text-white border-2 border-white font-bold py-2 px-4 shadow-brutal hover:bg-white hover:text-black transition-colors w-full">
                 Xem thêm ảnh

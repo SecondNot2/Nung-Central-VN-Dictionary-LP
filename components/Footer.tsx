@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
             </div>
             <p className="text-gray-400 mb-6 max-w-md text-lg leading-relaxed">
               Dự án được tạo ra với tình yêu dành cho việc bảo tồn và phát huy
-              ngôn ngữ cùng văn hóa Nùng. Hãy cùng chúng tôi gìn giữ di sản quý
+              ngôn ngữ cùng văn hóa Tày & Nùng. Hãy cùng chúng tôi gìn giữ di sản quý
               giá này.
             </p>
           </div>

@@ -124,14 +124,14 @@ const AppShowcase: React.FC = () => {
                         </div>
                         <div className="p-4 bg-white/5 backdrop-blur-xl border-2 border-white/10 rounded-xl shadow-2xl">
                           <p className="text-nung-sand font-bold text-xl md:text-2xl mb-1">
-                            "Khọp chai mần dã chốm pày"
+                            "Bươn slí lồng chả, bươn hả đăm nà"
                           </p>
                           <div className="flex items-center gap-2 text-xs text-white/40">
                             <span className="px-1.5 py-0.5 bg-white/10 rounded">
-                              Bản dịch từ
+                              Bản dịch cho
                             </span>
                             <span className="italic font-serif">
-                              "Cảm ơn bạn đã đồng hành"
+                              "Tháng tư gieo mạ, tháng năm cấy lúa"
                             </span>
                           </div>
                         </div>
@@ -254,7 +254,7 @@ const AppShowcase: React.FC = () => {
                         }`}
                       />
                     </button>
-                  )
+                  ),
                 )}
               </div>
             </div>

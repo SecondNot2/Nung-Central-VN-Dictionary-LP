@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
             Tra cứu <br />
             <span className="relative inline-block mt-2 md:mt-4">
               <span className="relative z-10 bg-black text-white px-6 py-2 border-2 border-white inline-block transform rotate-1">
-                Tiếng Nùng
+                Tiếng Tày - Nùng
               </span>
               <span className="absolute top-0 left-0 w-full h-full bg-nung-green border-2 border-black transform translate-x-2 translate-y-2 -z-10"></span>
             </span>
@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
 
           <div className="mt-8 relative max-w-2xl">
             <div className="bg-nung-blue/90 border-2 border-black p-6 shadow-[8px_8px_0px_2px_#A32D2D] text-nung-sand text-lg md:text-xl font-medium leading-relaxed backdrop-blur-sm">
-              Hệ thống tra cứu song ngữ Việt - Nùng đột phá với{" "}
+              Hệ thống tra cứu song ngữ Việt - Tày - Nùng đột phá với{" "}
               <strong>Engine AI Translation</strong> tự động, kết hợp cộng đồng
               thảo luận và đóng góp văn hóa đa tầng.
             </div>
@@ -50,7 +50,7 @@ const Hero: React.FC = () => {
 
           <div className="mt-12 flex flex-col sm:flex-row gap-6">
             <a
-              href="https://nungdic-app.vercel.app//"
+              href="https://nungdic-app.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-nung-red border-2 border-black shadow-brutal-lg hover:shadow-none hover:translate-x-2 hover:translate-y-2 transition-all duration-200"
@@ -85,7 +85,7 @@ const Hero: React.FC = () => {
               </div>
               <div className="p-3 bg-nung-blue/90 text-white border-t-2 border-black text-center">
                 <p className="font-serif text-xs md:text-sm italic">
-                  Hình ảnh: Nghệ thuật dệt vải truyền thống của người Nùng.
+                  Hình ảnh: Nghệ thuật dệt vải truyền thống của người Tày & Nùng.
                 </p>
               </div>
             </div>

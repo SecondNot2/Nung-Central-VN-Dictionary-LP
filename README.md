@@ -1,6 +1,6 @@
-# Nung Central Vietnam Dictionary (Landing Page)
+# NungDic - Tay Nung Language Dictionary (Landing Page)
 
-Đây là dự án **Landing Page** chính thức cho [**Nung Central Vietnam Dictionary**](https://nungdic-app.vercel.app). Một ứng dụng hiện đại giúp bảo tồn và phổ biến ngôn ngữ dân tộc Nùng tại miền Trung Việt Nam.
+Đây là dự án **Landing Page** chính thức cho [**NungDic - Từ điển ngôn ngữ Tày & Nùng**](https://nungdic-app.vercel.app). Một ứng dụng hiện đại giúp bảo tồn và phổ biến ngôn ngữ dân tộc Tày và Nùng.
 
 ## 🚀 Tính năng chính
 

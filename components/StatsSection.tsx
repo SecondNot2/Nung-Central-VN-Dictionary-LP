@@ -57,7 +57,7 @@ const StatsSection: React.FC = () => {
         <div className="mt-20 p-8 border-4 border-white inline-block relative left-1/2 -translate-x-1/2 bg-white/5 backdrop-blur-sm">
           <p className="font-serif text-xl italic text-nung-sand text-center max-w-2xl">
             "Dữ liệu được cập nhật và chuẩn hóa định kỳ bởi đội ngũ quản trị
-            viên và cộng đồng người Nùng bản địa."
+            viên và cộng đồng người Tày - Nùng bản địa."
           </p>
         </div>
       </div>
