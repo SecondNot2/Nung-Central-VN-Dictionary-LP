@@ -63,7 +63,7 @@ const Stories: React.FC = () => {
             <div className="bg-nung-blue p-6 border-4 border-black shadow-brutal-lg transform -rotate-2 hover:rotate-0 transition-all duration-500">
               <div className="relative border-2 border-black overflow-hidden mb-4 h-64 sm:h-80">
                 <img
-                  src="public\cuoc-song-lang-ban-tay-nung.png"
+                  src="./cuoc_song_lang_ban_tay_nung.png"
                   alt="Tay Nung Village Life"
                   className="w-full h-full object-cover cultural-filter hover:scale-110 transition-transform duration-700"
                 />
